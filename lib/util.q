@@ -132,13 +132,6 @@
   `$first"."vs last"/"vs string .z.f}
 
 ///
-// Ensures that the given namespace exists
-// @param namespace symbol Namespace to validate
-.util.validateNamespace:{[namespace]
-  @[value;namespace;{(`$x)set()!()}];
-  }
-
-///
 // Normalize a list of dictionaries into a table
 // @param dictList dictList List of dictionaries to be normalized
 .util.normalizeTable:{[dictList]
